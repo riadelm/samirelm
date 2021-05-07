@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: darkcyan !important;
+  padding:0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.carouselDiv {
+  margin:0;
+  height:100% !important;
+  width:100% !important;
+  padding:0;
+  border:0;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.carouselbg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+   /* Set rules to fill background */
+   min-height: 100px !important;
+   min-width: 100% !important;
+   
+   /* Set up proportionate scaling */
+   width: 100%;
+   height: auto;
+   
+   /* Set up positioning */
+   top: 0;
+   left: 0;
+   background-repeat: no-repeat;
+  background-size: contain !important;
+
+  position: absolute;
+  top: -9999px;
+  bottom: -9999px;
+  left: -9999px;
+  right: -9999px;
+  margin: auto;
+}
+
+.container {
+  padding:0;
+  margin:0;
+  height:100% !important;
+  background-size: cover;
+  width:100%;
+}
+
+#root {
+  height: 100vh;  
+}
+
+.py-0 {
+  height:90%;
+}
+
+.navbar {
+  padding: 2% 1rem !important
+}
